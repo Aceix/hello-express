@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar {
+  margin: 1rem 2rem;
+  background-color: white;
+  /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#logo {
+  margin-right: 1rem;
+  width: 150px;
+}
+
+.nav-item {
+  color: grey;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin: 0px 1rem;
+  /* margin: all; */
+  /* margin: top-bottom left-right; */
+  /* margin: top left bottom right; */
+}
+
+#sign-in {
+  margin-left: auto;
+}
+
+#get-started-btn {
+  background-color: blueviolet;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  /* margin-right: 2rem; */
+}
